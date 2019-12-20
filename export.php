@@ -9,7 +9,6 @@ require_once 'classes/conn.php';
 
 require_once 'XLSXWriter/xlsxwriter.class.php';
 
-
 if(isset($_POST['exportexel'])){
 
     $id = $_POST['id'];
